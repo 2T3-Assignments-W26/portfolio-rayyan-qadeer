@@ -116,7 +116,3 @@ When writing and debugging PowerShell scripts, using a dedicated editor can grea
 - **Best for**: Modern PowerShell development, especially with PowerShell 7 and cross-platform scripting.
 
 ![vscodeimage](vs_code.png)
-
-Useful Resources for Learning PowerShell
-Official PowerShell Documentation
-PowerShell GitHub Repository
