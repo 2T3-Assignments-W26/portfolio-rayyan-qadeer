@@ -34,7 +34,7 @@
     
     Docs: https://docsify.js.org/#/themes
   -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css" />
 </head>
 
 <body>
@@ -67,7 +67,7 @@
 
       // GitHub repo link (optional)
       // Set to the Classroom template repo if desired
-      repo: '',
+      repo: 'https://github.com/2T3-Assignments-W26/portfolio-rayyan-qadeer.git',
 
       //Home page
       homepage: 'README.md',
@@ -76,7 +76,7 @@
       loadSidebar: true,
 
       // Sidebar depth (headings shown)
-      subMaxLevel: 2,
+      subMaxLevel: 3,
 
       // Enable navigation between pages
       auto2top: true,
@@ -89,12 +89,20 @@
         To enable search later:
         1. Uncomment the search configuration
         2. Uncomment the search plugin script below
+*/
 
         search: {
           placeholder: 'Search',
           noData: 'No results found',
+          depth: 3,
         },
-      */
+      
+        pagination: {
+          previousText: 'Previous',
+          nextText: 'Next',
+          crossChapter: true,
+          crossChapterText: true,
+        },
 
       /*
         =============================================
@@ -121,6 +129,10 @@
     No local installation required.
   -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
 
   <!-- 
     =============================================
